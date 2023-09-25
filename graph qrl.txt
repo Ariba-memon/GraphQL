@@ -11,6 +11,51 @@ query GetCountries {
     phones
   }
 }
+query GetCountries {
+  countries{
+    name
+    languages{
+      name
+    }
+  
+  
+  }
+ 
+}
+query GetLang{
+  languages{
+    name
+  }
+}
+
+query GetCountries {
+  country(code:"PK"){
+    name
+    languages{
+      name
+    }
+  
+  
+  }
+ 
+}
+query GetLang{
+  language(code:"am"){
+    name
+  }
+}
+
+mutation CreateUser{
+  
+}
+body ky andar query pass krengy
 
 cntrl space
 space x pe bhi ap api ly sakta h jo public h
+STRING INTEGER DATA TYPE USE HOTE H ID KI DATA TYPE HOTE H
+graphql m post hi krsakty hain
+custom datatype bana sakty hain
+queries
+mutation  koi bhi data motite krna h 
+
+
