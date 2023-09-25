@@ -1,0 +1,16 @@
+graphQL :ik hi url hota h url ko kholtay hain tu playground khud hi ban jata h 
+playground ky andar queries likhtay hain
+https://countries.trevorblades.com/
+query jb bhi likhengy data fetch krengy
+query keyword h uska nam getdata
+query GetCountries {
+  countries{
+    name
+    currency
+    capital
+    phones
+  }
+}
+
+cntrl space
+space x pe bhi ap api ly sakta h jo public h
